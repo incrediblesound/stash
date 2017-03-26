@@ -1,7 +1,7 @@
 Stash
 =====
 
-I've often read that instead of using malloc all over your C code it is preferable to allocated a large block of memory once and to draw from that as needed. I have always been interested in this idea so I decided to implement a simple "stash" library that would do just that.
+I've often read that instead of using malloc in your C code it is preferable to allocate a large block of memory once and to draw from that as needed. I have always been interested in this idea so I decided to implement a simple "stash" library that would do just that.
 
 The stash is a data structure that contains a zero-initialize array of bytes and an array of "entries" that reflects which chunks of those bytes are currently in use.
 
